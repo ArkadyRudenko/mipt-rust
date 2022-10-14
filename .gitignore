@@ -1,0 +1,28 @@
+# Rust build
+/target
+/Cargo.lock
+
+# Sandbox
+/tools/sandbox
+
+# VS Code settings
+**/.vscode
+
+# MacOS useless DS_Store
+**/.DS_Store
+#IdeaSettings
+**/.idea
+# Lectures
+/lectures/**/_minted-slides
+/lectures/**/slides.aux
+/lectures/**/slides.dvi
+/lectures/**/slides.log
+/lectures/**/slides.nav
+/lectures/**/slides.out
+/lectures/**/slides.snm
+/lectures/**/slides.synctex.gz
+/lectures/**/slides.toc
+/lectures/**/slides.vrb
+
+# Problem specific
+/problems/async/babencoin/test_artifacts

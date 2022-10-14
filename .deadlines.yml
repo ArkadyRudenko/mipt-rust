@@ -1,0 +1,98 @@
+- group:    Tutorial
+  start:    01-02-2022 00:00
+  deadline: 11-03-2022 23:59
+  tasks:
+    - task: add
+      score: 0
+- group:    Intro
+  start:    01-02-2022 00:00
+  deadline: 27-03-2022 23:59
+  tasks:
+    - task: combinations
+      score: 100
+    - task: conway
+      score: 100
+    - task: min-queue
+      score: 100
+- group:    Library Collections
+  start:    12-02-2022 00:00
+  deadline: 27-03-2022 23:59
+  tasks:
+    - task: comm
+      score: 100
+    - task: prefix
+      score: 200
+    - task: lru-cache
+      score: 300
+- group:    Traits
+  start:    12-03-2022 00:00
+  deadline: 06-04-2022 23:59
+  tasks:
+    - task: trust
+      score: 100
+    - task: mpsc
+      score: 200
+    - task: flatmap
+      score: 200
+    - task: itertools
+      score: 300
+- group:    Modules
+  start:    12-03-2022 00:00
+  deadline: 14-04-2022 23:59
+  tasks:
+    - task: trie
+      score: 400
+    - task: ripgzip
+      score: 100
+- group:    Borrowing
+  start:    28-03-2022 00:00
+  deadline: 21-04-2022 23:59
+  tasks:
+    - task: pstack
+      score: 100
+    - task: context
+      score: 100
+    - task: bst
+      score: 500
+- group:    Macros
+  start:    13-04-2022 00:00
+  deadline: 06-05-2022 23:59
+  tasks:
+    - task: fswalk
+      score: 200
+    - task: gc
+      score: 300
+    - task: mini-frunk
+      score: 700
+- group:    Macros 2
+  start:    19-04-2022 00:00
+  deadline: 18-05-2022 23:59
+  tasks:
+    - task: orm
+      score: 100
+- group:    Parallel computing
+  start:    03-05-2022 00:00
+  deadline: 13-06-2022 23:59
+  tasks:
+    - task: thread-pool
+      score: 200
+    - task: tcp-proxy
+      score: 200
+    - task: pargrep
+      score: 200
+- group:    Unsafe code
+  start:    03-05-2022 00:00
+  deadline: 13-06-2022 23:59
+  tasks:
+    - task: smol-vec
+      score: 200
+    - task: snapshot
+      score: 200
+- group:    Asynchronous computing
+  start:    03-05-2022 00:00
+  deadline: 13-06-2022 23:59
+  tasks:
+    - task: crawler
+      score: 200
+    - task: babencoin
+      score: 100

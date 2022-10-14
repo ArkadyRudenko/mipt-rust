@@ -1,0 +1,5 @@
+grade:
+  image: eu.gcr.io/shad-ts/grader/mipt-rust
+  script:
+    - rover test --path "/opt/shad/mipt-rust/problems/$CI_COMMIT_REF_NAME" --move-files "$CI_PROJECT_DIR" --report-to "manytask"
+  timeout: 10 minutes
