@@ -10,7 +10,7 @@
   tasks:
     - task: combinations |+ 05.11.22|
       score: 100
-    - task: conway
+    - task: conway |+ 11.11.22|
       score: 100
     - task: min-queue |+ 10.11.22|
       score: 100
