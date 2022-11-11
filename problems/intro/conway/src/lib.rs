@@ -46,25 +46,23 @@ impl<T: Clone + Default> Grid<T> {
 
     pub fn neighbours(&self, row: usize, col: usize) -> Vec<(usize, usize)> {
         let mut neighbours = Vec::new();
-        let start_row = if row == 0 {
-            0
-        } else {
-            row - 1
-        };
-        let start_col = if col == 0 {
-            0
-        } else {
-            col - 1
-        };
 
-        for i in start_row..cmp::min(row + 2, self.rows) {
-            for j in start_col..cmp::min(col + 2, self.cols) {
+        for i in self.get_start_index(row)..cmp::min(row + 2, self.rows) {
+            for j in self.get_start_index(col)..cmp::min(col + 2, self.cols) {
                 if i != row || j != col {
                     neighbours.push((i, j));
                 }
             }
         }
         neighbours
+    }
+
+    fn get_start_index(&self, index: usize) -> usize {
+        return if index == 0 {
+            0
+        } else {
+            index - 1
+        };
     }
 }
 
