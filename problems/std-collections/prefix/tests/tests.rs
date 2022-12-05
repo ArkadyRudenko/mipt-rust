@@ -71,3 +71,11 @@ fn unicode2() {
         "hi!✊ "
     );
 }
+
+#[test]
+fn my_test() {
+    assert_eq!(
+        longest_common_prefix(vec!["a", "ab"]),
+        "a"
+    );
+}
