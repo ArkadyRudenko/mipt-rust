@@ -18,9 +18,9 @@
   start:    12-02-2022 00:00
   deadline: 27-03-2022 23:59
   tasks:
-    - task: comm
+    - task: comm |+ 03.12.22|
       score: 100
-    - task: prefix
+    - task: prefix |+ 05.12.22|
       score: 200
     - task: lru-cache
       score: 300
@@ -28,7 +28,7 @@
   start:    12-03-2022 00:00
   deadline: 06-04-2022 23:59
   tasks:
-    - task: trust
+    - task: trust |+ 10.12.22|
       score: 100
     - task: mpsc
       score: 200
